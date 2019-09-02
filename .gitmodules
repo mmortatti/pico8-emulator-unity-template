@@ -1,0 +1,3 @@
+[submodule "Assets/pico8-emulator"]
+	path = Assets/pico8-emulator
+	url = git@github.com:mmortatti/pico8-emulator.git
