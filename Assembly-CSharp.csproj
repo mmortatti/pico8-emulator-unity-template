@@ -62,22 +62,15 @@
      <Compile Include="Assets\pico8-emulator\MemoryUnit.cs" />
      <Compile Include="Assets\pico8-emulator\Pico8.cs" />
      <Compile Include="Assets\pico8-emulator\util.cs" />
+     <None Include="Assets\packages\KeraLua.1.0.22\lib\netcoreapp2.0\KeraLua.xml" />
+     <None Include="Assets\packages\KeraLua.1.0.22\lib\xamarinwatchos\KeraLua.xml" />
+     <None Include="Assets\packages\KeraLua.1.0.22\lib\net45\KeraLua.xml" />
+     <None Include="Assets\packages\KeraLua.1.0.22\lib\MonoAndroid\KeraLua.xml" />
+     <None Include="Assets\packages\KeraLua.1.0.22\lib\xamarintvos\KeraLua.xml" />
      <None Include="Assets\link.xml" />
- <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/mathe/Documents/git/Pico8 Template/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/mathe/Documents/git/Pico8 Template/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/Users/mathe/Documents/git/Pico8 Template/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/mathe/Documents/git/Pico8 Template/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>C:/Users/mathe/Documents/git/Pico8 Template/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
- </Reference>
+     <None Include="Assets\packages\KeraLua.1.0.22\lib\netstandard2.0\KeraLua.xml" />
+     <None Include="Assets\packages\KeraLua.1.0.22\lib\xamarinios\KeraLua.xml" />
+     <None Include="Assets\packages\KeraLua.1.0.22\lib\xamarinmac\KeraLua.xml" />
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
  </Reference>
@@ -279,6 +272,12 @@
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.6f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
+ <Reference Include="KeraLua">
+ <HintPath>C:/Users/mathe/Documents/git/Pico8 Template/Assets/Plugins/KeraLua.dll</HintPath>
+ </Reference>
+ <Reference Include="NLua">
+ <HintPath>C:/Users/mathe/Documents/git/Pico8 Template/Assets/Plugins/NLua.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Analytics.Editor">
  <HintPath>C:/Users/mathe/Documents/git/Pico8 Template/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
@@ -288,11 +287,29 @@
  <Reference Include="Unity.Analytics.Tracker">
  <HintPath>C:/Users/mathe/Documents/git/Pico8 Template/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
- <Reference Include="NLua">
- <HintPath>C:/Users/mathe/Documents/git/Pico8 Template/Assets/Plugins/NLua.dll</HintPath>
+ <Reference Include="KeraLua">
+ <HintPath>C:/Users/mathe/Documents/git/Pico8 Template/Assets/packages/KeraLua.1.0.22/lib/xamarinmac/KeraLua.dll</HintPath>
  </Reference>
  <Reference Include="KeraLua">
- <HintPath>C:/Users/mathe/Documents/git/Pico8 Template/Assets/Plugins/KeraLua.dll</HintPath>
+ <HintPath>C:/Users/mathe/Documents/git/Pico8 Template/Assets/packages/KeraLua.1.0.22/lib/MonoAndroid/KeraLua.dll</HintPath>
+ </Reference>
+ <Reference Include="KeraLua">
+ <HintPath>C:/Users/mathe/Documents/git/Pico8 Template/Assets/packages/KeraLua.1.0.22/lib/xamarinwatchos/KeraLua.dll</HintPath>
+ </Reference>
+ <Reference Include="KeraLua">
+ <HintPath>C:/Users/mathe/Documents/git/Pico8 Template/Assets/packages/KeraLua.1.0.22/lib/net45/KeraLua.dll</HintPath>
+ </Reference>
+ <Reference Include="KeraLua">
+ <HintPath>C:/Users/mathe/Documents/git/Pico8 Template/Assets/packages/KeraLua.1.0.22/lib/xamarintvos/KeraLua.dll</HintPath>
+ </Reference>
+ <Reference Include="KeraLua">
+ <HintPath>C:/Users/mathe/Documents/git/Pico8 Template/Assets/packages/KeraLua.1.0.22/lib/netstandard2.0/KeraLua.dll</HintPath>
+ </Reference>
+ <Reference Include="KeraLua">
+ <HintPath>C:/Users/mathe/Documents/git/Pico8 Template/Assets/packages/KeraLua.1.0.22/lib/xamarinios/KeraLua.dll</HintPath>
+ </Reference>
+ <Reference Include="KeraLua">
+ <HintPath>C:/Users/mathe/Documents/git/Pico8 Template/Assets/packages/KeraLua.1.0.22/lib/netcoreapp2.0/KeraLua.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.6f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

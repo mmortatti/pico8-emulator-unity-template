@@ -31,6 +31,8 @@ public class pico8Controller : MonoBehaviour
         pico8.AddOButtonDownFunction(() => { return Input.GetKey(KeyCode.Z); }, 0);
         pico8.AddXButtonDownFunction(() => { return Input.GetKey(KeyCode.X); }, 0);
 
+        pico8.audio.sampleRate = AudioSettings.outputSampleRate;
+
         pico8.LoadGame("Assets/jelpi.p8", new NLuaInterpreter());
 
         rawImage.texture = screenTexture;
@@ -48,5 +50,16 @@ public class pico8Controller : MonoBehaviour
     void FixedUpdate()
     {
         pico8.Update();
+    }
+
+    void OnAudioFilterRead(float[] data, int channels)
+    {
+        int dataLen = data.Length / channels;
+        float[] buffer = pico8.audio.RequestBuffer(dataLen);
+        for(int i = 0; i < dataLen; i += 1)
+        {
+            for (int j = 0; j < channels; j += 1)
+                data[i * channels + j] = buffer[i];
+        }
     }
 }
